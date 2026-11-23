@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — Мой Сайт</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">МойСайт</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contact.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container">
+                <h1>Свяжитесь с нами</h1>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Контакты</h2>
+                        <p>📞  Телефон: +7 (999) 123-45-67</p>
+                        <p>✉️  Email: info@mysite.ru</p>
+                        <p>📍  Адрес: г. Москва, ул. Примерная, д. 1</p>
+                        <p>🕐  Режим работы: Пн–Пт, 9:00–18:00</p>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <h2>Напишите нам</h2>
+                        <label>
+                            Ваше имя
+                            <input type="text" name="name" required>
+                        </label>
+                        <label>
+                            Email
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            Сообщение
+                            <textarea name="message" rows="5" required></textarea>
+                        </label>
+                        <button type="submit" class="btn">Отправить</button>
+                        <p id="formMessage" class="form-message"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 МойСайт. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
